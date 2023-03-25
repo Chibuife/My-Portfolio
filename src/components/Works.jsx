@@ -7,7 +7,6 @@ import { fadeIn, textVariant } from '../utils/motion'
 import { github } from '../assets'
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, screenWidth }) =>{
-  console.log(screenWidth)
   return(
     <motion.div variants={screenWidth < 1000 ? null : fadeIn("up", "spring", index*0.5, 0.75)}>
     <Tilt
