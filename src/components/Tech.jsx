@@ -6,7 +6,7 @@ const Tech = () => {
   const mem = navigator.deviceMemory
   {
     return (
-      mem < 2 ?
+      mem < 3 ?
         <div
           className="flex flex-row flex-wrap justify-center gap-10">
           {technologies.map((technology) => (

@@ -14,7 +14,7 @@ const Hero = () => {
       alert(`hi there, some future won't available due to low memory.Your memory ${navigator.deviceMemory}gig ram`)
     }
     const typed = new Typed(el.current, {
-      strings: ['Welcome to my Portifolio', `I develop user interfaces ${mem >= 2 ?` <br className='sm: block hidden' />`: ''} and web applications. ${mem < 2 ? `I use FireBase to develop my back-ends.  I am currently learning node js & express js.<br className='sm: block hidden' /> Am ready to migrate to any framework for development. Looking some one who can build and provide solution for your client site <br/> <a><small>CLICK HERE</small></a>`: ''}`],
+      strings: ['Welcome to my Portifolio', `I develop user interfaces ${mem >= 3 ?` <br className='sm: block hidden' />`: ''} and web applications. ${mem < 3 ? `I use FireBase to develop my back-ends.  I am currently learning node js & express js.<br className='sm: block hidden' /> Am ready to migrate to any framework for development. Looking some one who can build and provide solution for your client site <br/> <a><small>CLICK HERE</small></a>`: ''}`],
       typeSpeed: 50,
     });
 
@@ -37,7 +37,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {mem >= 2 ? <ComputersCanvas />:<></> }
+      {mem >= 3 ? <ComputersCanvas />:<></> }
       
      
       <div className=' -mt-4 z-10 md:-mt-20 absolute w-full flex justify-center items-center'>
