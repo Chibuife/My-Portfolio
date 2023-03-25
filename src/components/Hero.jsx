@@ -8,7 +8,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Welcome to my Portifolio',`I develop user interfaces <br className='sm: block hidden' /> and web applications`],
+      strings: ['Welcome to my Portifolio', `I develop user interfaces  and web  applications with React. I use FireBase to  develop my back-end. I am currently learning express js. Am ready to migrate to any framework for development. Looking some some who can build and provide solution for your client site? <br/> <a  href='#contact'><small className='text-primary'>DROP A MESSAGE</small></a>`],
       typeSpeed: 50,
     });
 
@@ -27,26 +27,24 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Chibuife</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-        <span ref={el} />
-            {/* i am currently learning express js */}
-            {/* Am ready to migrate to any framework for development */}
+            <div className='md:w-8/12'> <span ref={el} /> </div>
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className='  md:mt-4 absolute w-full flex justify-center items-center'>
         <a href="#about">
           <div className='w-[35px] h-[64px]  rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
-            animate={{
-              y: [0,24,0]
-            }}
-            transition={{
-              duration: 1.5, 
-              repeat: Infinity,
-              repeatType: 'loop'
-            }}
-            className="w-3 h-3 rounded-full bg-secondary mb-1"
+              animate={{
+                y: [0, 24, 0]
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: 'loop'
+              }}
+              className="w-3 h-3 rounded-full bg-secondary mb-1"
             />
           </div>
         </a>

@@ -18,6 +18,9 @@
   padding-bottom: 100px;
   display: block;
 }
+small{
+  color: #804dee;
+}
 
 .black-gradient {
   background: #000000;
