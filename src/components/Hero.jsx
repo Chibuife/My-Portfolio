@@ -5,13 +5,13 @@ import { ComputersCanvas } from './canvas'
 import Typed from 'typed.js'
 const Hero = () => {
   const el = useRef(null);
-  const mem = navigator.deviceMemory
+  const mem = navigator.deviceMemory()
  
 
   useEffect(() => {
 
     if (mem < 3) {
-      alert(`hi there, some future won't available due to low memory.Your memory ${navigator.deviceMemory}gig ram`)
+      alert(`hi there, some feature won't available due to low memory.Your memory ${navigator.deviceMemory}gig ram`)
     }
     const typed = new Typed(el.current, {
       strings: ['Welcome to my Portifolio', `I develop user interfaces ${mem >= 3 ?` <br className='sm: block hidden' />`: ''} and web applications. ${mem < 3 ? `I use FireBase to develop my back-ends.  I am currently learning node js and express js.<br className='sm: block hidden' /> Am ready to migrate to any framework for development. Looking some one who can build and provide solution for your client site <br/> <a href="#contact"><small>CLICK HERE</small></a>`: ''}`],
