@@ -5,8 +5,8 @@ import { ComputersCanvas } from './canvas'
 import Typed from 'typed.js'
 const Hero = () => {
   const el = useRef(null);
-  const mem = navigator.deviceMemory()
- 
+  const mem = navigator.deviceMemory
+ console.log(mem)
 
   useEffect(() => {
 
