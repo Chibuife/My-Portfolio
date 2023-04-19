@@ -14,7 +14,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>HTML</i>&nbsp; Mastery', '<i>CSS</i>&nbsp; Mastery', '<i>REACT</i>&nbsp; Intermidate', '<i>JS</i>&nbsp; Intermidate', '<i>FireBase</i>&nbsp; Beginner', '<i>Node/Express</i>&nbsp; Learning', '<i>Mongo DB</i>&nbsp; Learning', '<i>Front-End</i>&nbsp; Developer'],
+      strings: ['<i>HTML</i>&nbsp; Mastery', '<i>CSS</i>&nbsp; Mastery', '<i>REACT</i>&nbsp; Advance', '<i>JS</i>&nbsp; Advance', '<i>FireBase</i>&nbsp; Intermidiate', '<i>Node/Express</i>&nbsp; Learning', '<i>Mongo DB</i>&nbsp; Learning', '<i>Front-End</i>&nbsp; Developer'],
       typeSpeed: 50,
       showCursor: false
 
