@@ -37,6 +37,7 @@ import tripguide from "./tripguide.png";
 import governor from "./governor.png";
 import mygit from "./mygit.png"
 import emart from "./emart.png";
+import comfySlot from './comfyslot.png'
 import calculator from "./calculator.png"
 import game from "./game.png"
 import country from "./country.png"
@@ -80,6 +81,7 @@ export {
   mygit,
   governor,
   emart,
+  comfySlot,
   calculator,
   country,
   game

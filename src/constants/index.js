@@ -30,6 +30,7 @@ import {
     governor,
     mygit,
     emart,
+    comfySlot,
     calculator,
     country,
     game,
@@ -226,9 +227,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Emart",
+        name: "Comfy Slot",
         description:
-            "Web application that enables customers to browse and purchase items, make payments, and track their orders. Not yet complete",
+            "Web application that enables customers to browse and purchase items, make payments, and track their orders.",
         tags: [
             {
                 name: "nextjs",
@@ -243,30 +244,30 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: emart,
-        source_code_link: "https://emart-frontend.vercel.app/",
+        image: comfySlot,
+        source_code_link: "https://comfy-slot.vercel.app/",
     },
-    {
-        name: "Governor's Appreciation",
-        description:
-            "An appreciation project to acknowledge and recognize governor for their contributions, efforts, or achievements.",
-        tags: [
-            {
-                name: "next",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "cloudinary",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: governor,
-        source_code_link: "https://ifeanyiugwuanyi.vercel.app/",
-    },
+    // {
+    //     name: "Governor's Appreciation",
+    //     description:
+    //         "An appreciation project to acknowledge and recognize governor for their contributions, efforts, or achievements.",
+    //     tags: [
+    //         {
+    //             name: "next",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "cloudinary",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: governor,
+    //     source_code_link: "https://ifeanyiugwuanyi.vercel.app/",
+    // },
 
     {
         name: "Git-Hub Users",
