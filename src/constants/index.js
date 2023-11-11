@@ -72,50 +72,50 @@ const services = [
 ];
 
 const technologies = [
-    {
-        name: "HTML 5",
-        icon: html,
-    },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
+    // {
+    //     name: "HTML 5",
+    //     icon: html,
+    // },
+    // {
+    //     name: "CSS 3",
+    //     icon: css,
+    // },
     {
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "Sass",
-        icon: sass,
-    },
+    // {
+    //     name: "Sass",
+    //     icon: sass,
+    // },
     {
         name: "Firebase",
         icon: firebase,
     },
-    {
-        name: "Gatsby",
-        icon: gatsby,
-    },
-    {
-        name: "Next",
-        icon: next,
-    },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "Gatsby",
+    //     icon: gatsby,
+    // },
+    // {
+    //     name: "Next",
+    //     icon: next,
+    // },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     // {
     //     name: "Node JS",
     //     icon: nodejs,
@@ -132,10 +132,10 @@ const technologies = [
         name: "git",
         icon: git,
     },
-    {
-        name: "figma",
-        icon: figma,
-    },
+    // {
+    //     name: "figma",
+    //     icon: figma,
+    // },
     // {
     //     name: "docker",
     //     icon: docker,
