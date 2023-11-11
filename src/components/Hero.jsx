@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className='sm:h-[450px] lg:h-96 bg-red-900 mt-12 relative'>
+      <div className='sm:h-[450px] lg:h-96  mt-12 relative'>
       {mem >= 3 ? <ComputersCanvas />:<></> }
       </div>
       
