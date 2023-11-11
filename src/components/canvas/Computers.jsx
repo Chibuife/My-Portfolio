@@ -31,8 +31,12 @@ const Computers = () => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -4, -2.2] : [0, -3.25, -1.5]}
+        scale={isMobile ? 0.53 : 0.60}
+        position={isMobile ?
+          [-2, -1.7, -1.0] 
+          
+          // [-4, -1, -1.0] 
+          : [0, -1.5, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
       </mesh>
@@ -40,19 +44,41 @@ const Computers = () => {
 }
 
 const ComputersCanvavs = () => {
-  
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width:750px)')
+    setIsMobile(mediaQuery.matches)
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches)
+    }
+    mediaQuery.addEventListener('change',
+      handleMediaQueryChange)
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange)
+    }
+  }, [])
+
   return (
     <Canvas
       frameLoop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 55 }}
-      gl={{ presereDrawingBuffer: true }}
+      camera={{ 
+        position: [20, 3, 5], 
+        fov: 10
+      }}
+      // gl={{ presereDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+          // enablePan={false}
+          // enableRotate={false}
+
+         
+
+    
+          minPolarAngle={isMobile ? Math.PI / 10 : Math.PI / 2 }
+          maxPolarAngle={ isMobile ? Math.PI - Math.PI / 10: Math.PI / 2}
         />
         <Computers />
         <Preload all/>
