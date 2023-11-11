@@ -65,8 +65,9 @@ const ComputersCanvavs = () => {
       camera={{ 
         position: [20, 3, 5], 
         fov: 10
+   
       }}
-      // gl={{ presereDrawingBuffer: true }}
+      gl={{ presereDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -76,7 +77,8 @@ const ComputersCanvavs = () => {
 
          
 
-    
+          // maxPolarAngle={Math.PI /2}
+          // minPolarAngle={Math.PI / 2}
           minPolarAngle={isMobile ? Math.PI / 10 : Math.PI / 2 }
           maxPolarAngle={ isMobile ? Math.PI - Math.PI / 10: Math.PI / 2}
         />

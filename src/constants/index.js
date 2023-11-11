@@ -28,6 +28,7 @@ import {
     jobit,
     tripguide,
     governor,
+    map,
     mygit,
     emart,
     comfySlot,
@@ -57,10 +58,10 @@ const services = [
         title: "Web Developer",
         icon: web,
     },
-    // {
-    //     title: "React Native Developer",
-    //     icon: mobile,
-    // },
+    {
+        title: "React Native Developer",
+        icon: mobile,
+    },
     {
         title: "Backend Developer",
         icon: backend,
@@ -247,28 +248,48 @@ const projects = [
         image: comfySlot,
         source_code_link: "https://comfy-slot.vercel.app/",
     },
-    // {
-    //     name: "Governor's Appreciation",
-    //     description:
-    //         "An appreciation project to acknowledge and recognize governor for their contributions, efforts, or achievements.",
-    //     tags: [
-    //         {
-    //             name: "next",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "cloudinary",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "tailwind",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: governor,
-    //     source_code_link: "https://ifeanyiugwuanyi.vercel.app/",
-    // },
-
+    {
+        name: "Governor's Appreciation",
+        description:
+            "An appreciation project to acknowledge and recognize governor for their contributions, efforts, or achievements.",
+        tags: [
+            {
+                name: "next",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "cloudinary",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: governor,
+        source_code_link: "https://ifeanyiugwuanyi.vercel.app/",
+    },
+    {
+        name: "Map API",
+        description:
+            "Uses your device IP to get your info and location on the map",
+        tags: [
+            {
+                name: "JS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HTML",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: map,
+        source_code_link: "https://ip-address-chibuife.vercel.app/",
+    },
     {
         name: "Git-Hub Users",
         description:

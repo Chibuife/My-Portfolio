@@ -35,6 +35,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import governor from "./governor.png";
+import map from "./map.png";
+
 import mygit from "./mygit.png"
 import emart from "./emart.png";
 import comfySlot from './comfyslot.png'
@@ -80,6 +82,7 @@ export {
   tripguide,
   mygit,
   governor,
+  map,
   emart,
   comfySlot,
   calculator,
