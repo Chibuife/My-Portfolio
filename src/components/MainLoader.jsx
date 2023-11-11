@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MainLoader = ({ setloader }) => {
-    setTimeout(  ()=>setloader(false),5000)
+    setTimeout(  ()=>setloader(false),2000)
     return (
         <div className="loader-container">
             <div className="loader"></div>
